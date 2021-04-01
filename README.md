@@ -117,7 +117,7 @@ lazy val root = (project in ("."))
         openAPIOutputPackage := "com.enfore.model",
         libraryDependencies += "com.enfore" %% "openapi-lib" % "<openapi-scala-version>"
     )
-    .enablePlugins(OpenapiPlugin)
+    .enablePlugins(OpenAPIPlugin)
 ```
 
 ### SBT Settings
